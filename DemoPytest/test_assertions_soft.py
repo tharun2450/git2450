@@ -30,3 +30,6 @@ class AssertionsTest(softest.TestCase):
     self.soft_assert(self.assertIn,
       "51", age_group, "Age Group Is Not Correct")
     self.assert_all("Verify Gender, Title, & Age Group")
+#self.soft_assert(self.assertIs,"male",gender,"gender is not correct")
+#self.soft_assert(self.assertTrue,"male",driver.title.__contains__("selenium grid online"))
+#self.soft_assert(self.assertIn,"51",age_group,"age group is not correct")
